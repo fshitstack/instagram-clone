@@ -8,12 +8,12 @@
 #"boa pratica resetar os estilos"
 }
 
-body{
-	width: 100%;
-	min-height: 100vh;
-    background-color: rgb(243,243,243);
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
     margin: 0;
-    padding:0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
@@ -37,8 +37,8 @@ body{
     width:50%;
 }
 
-.instagram-phone.img{
-    height:50ren;
+.instagram-phone img {
+    height: 50rem;
 }
 
 .instagram-continue{
@@ -47,6 +47,7 @@ body{
     justify-content:space-around; /*esse na vertical */
     flex-direction:column;
     width:50%;
+    min-height:34rem;
 }
 
 /*agora estilizando os grupos, itens de estilo similar que foram definidos pela classe intencionalmente*/
@@ -70,7 +71,7 @@ body{
     height:3rem;
 }
 
-.profile-proto{
+.profile-photo{
     display: flex;
     justify-content: center;
     align-items: center;
