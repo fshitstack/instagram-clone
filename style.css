@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+#"boa pratica resetar os estilos"
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    #"display flex alinha tudo em linha dentro do container"
+    align-items:center;
+    justify-content:start;
+    width: 60%;
+    height:100vh;
+        
+        #"alguem consegue clarificar o algoritimo de alinhamento aqui?
+        #"video 2 9m adiante"
+}
+
+.instagram-phone{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+}
+
+.instagram-phone.img{
+    height:50ren;
+}
+
+.instagram-continue{
+    display:flex;
+    align-items: center; /* na horizontal*/
+    justify-content:space-around; /*esse na vertical */
+    flex-direction:column;
+    width:50%;
+}
+
+/*agora estilizando os grupos, itens de estilo similar que foram definidos pela classe intencionalmente*/
+
+.group{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color:#ffffff;
+        width: 100%;
+        padding: 1.3rem 0;
+        border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height:19rem;
+}
+
+.instagram-logo{
+    height:3rem;
+}
+
+.profile-proto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+profile-photo img{
+    height: 6rem;
+}
